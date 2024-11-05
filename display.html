@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display CSS</title>
+		<!--  FAVICON -->
+    <link rel="shortcut icon" href="assets/img/css-icono.svg"  type="image/x-icon" />
+	
+<!--  HOJAS DE ESTILO -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+	<link rel="stylesheet" href="assets/css/nuevo-style.css" />
+	 <link rel="stylesheet" href="assets/css/styledisplay.css" />
+
+</head>
+<body>
+
+    <!-- Header -->
+	  <header>
+        <div class="logo">F5</div>
+        <h3>Display CSS</h3>
+		<a href="home.html" target="_blank"> <img class="home" src="assets/img/casa-blanca.png" alt="logo casa" width="25px"></a>
+    </header>
+ 
+
+    <!-- Menu -->
+    <nav class="menu">
+        <!-- Links a las sections -->
+   
+       <div class="subgrupo">
+        <a class="principal" href="#section1">display</a>
+        <a href="#section2">display: block</a>
+        <a href="#section3">display: inline</a>
+        <a href="#section4">display inline-block</a>
+		<a href="#section5">none</a>
+    </div>
+	
+	  <div class="subgrupo">
+        <a class="principal2" href="#section6">display: flex</a>
+ 
+    </div>
+    <hr>
+    <div class="subgrupo"> 
+        <a class="principal" href="#section7">visibility</a>
+        <a href="#section8">visible</a>
+        <a href="#section9">hidden</a>
+        <a href="#section10">collapse</a>
+        <a href="#section11">visibily:hidden vs display:none</a>
+    </div>
+    <hr>
+   
+    </nav>
+  <hr>
+    <!-- Contenedor principal Sections -->
+    <div class="contenido">
+        <!-- Sections con IDs -->
+		 <!-- section 1 -->
+     <section id="section1">
+		<div class="capitulo">
+		 <div class="tema">
+                <h2 class="titulo-grupo">display</h2>
+       
+                <p>La propiedad display se utiliza para especificar cómo se muestra un elemento en una página web.</p>
+
+                <p>Todo elemento HTML tiene un valor display predeterminado, según el tipo de elemento que sea. El valor display predeterminado para la mayoría de los elementos es bloque o en línea.</p>
+                    
+                <p>La propiedad display se utiliza para cambiar el comportamiento de visualización predeterminado de los elementos HTML.</p>
+
+
+         
+	    </div>
+		<div class="imagen-derecha">
+			     <img src="assets/images/css-display.jpg" alt="imagen display"  width="500px">
+	    </div>
+	</div>
+     </section>
+   
+       <!-- section 2-->
+     <section id="section2">
+		<div class="capitulo">
+		<div class="tema">
+          
+                <h2>display: block</h2>
+          
+                <p>Un elemento de bloque, siempre comienza en una nueva línea y ocupa todo el ancho disponible (se extiende hacia la izquierda y hacia la derecha tanto como puede).</p>
+				<p>block es el valor por defecto.</p>
+                <br>
+				<p>El siguiente ejemplo muestra como mostrar en  bloque elementos en línea, como es un span.</p>
+
+         </div>
+		</div>
+		<div class="codigo">
+				<div class="left-column">
+					<div id="editor">
+						<h4>Html</h4>				
+						<textarea id="htmlCode2" placeholder="HTML code"></textarea>
+						<h4>CSS</h4>
+						<textarea id="cssCode2" placeholder="CSS code"></textarea>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="preview">
+						 <h3>Preview</h3>
+						 <iframe id="preview2"></iframe>
+					</div>
+				</div>
+		 </div>			
+     </section>
+       <!-- section 3-->
+     <section id="section3">
+		<div class="capitulo">
+		<div class="tema">
+         <h2>display: inline</h2>
+             <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+             <p>Un elemento en línea NO comienza en una nueva línea y solo ocupa el ancho y alto necesario.</p>
+			 <p>El ancho y alto de su caja se adapta al contenido.</p>
+			 <br>
+            <p>El siguiente ejemplo muestra como mostrar en línea elementos de bloque, como es un div.</p>
+         </div>
+		</div>
+		<div class="codigo">
+				<div class="left-column">
+					<div id="editor">
+						<h4>Html</h4>				
+						<textarea id="htmlCode3" placeholder="HTML code"></textarea>
+						<h4>CSS</h4>
+						<textarea id="cssCode3" placeholder="CSS code"></textarea>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="preview">
+						 <h3>Preview</h3>
+						 <iframe id="preview3"></iframe>
+					</div>
+				</div>
+		 </div>			
+     </section>	
+       <!-- section 4-->
+     <section id="section4">
+		<div class="capitulo">
+		<div class="tema">
+       <h2>display: inline_block</h2>
+           <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+                <p>Hace que un elemento se comporte como un elemento en línea (se ubica junto a otros) y como un elemento de bloque (puede tener ancho y alto).</p>
+                <p>Los elementos se alinean uno al lado del otro.</p>
+                <p>Puede establecer un ancho y alto específicos. Se usa comúnmente para menús de navegación, galerías de imágenes y diseños de tarjetas.</p>
+				<p>Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales.</p>
+                <br>
+				<p>display: inline-block; permite que los elementos se alineen en una fila, pero mantienen sus medidas de anchura y altura.
+           
+         </div>
+	
+
+		</div>
+		<div class="codigo">
+				<div class="left-column">
+					<div id="editor">
+						<h4>Html</h4>				
+						<textarea id="htmlCode4" placeholder="HTML code"></textarea>
+						<h4>CSS</h4>
+						<textarea id="cssCode4" placeholder="CSS code"></textarea>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="preview">
+						 <h3>Preview</h3>
+						 <iframe id="preview4"></iframe>
+					</div>
+				</div>
+		 </div>			
+     </section>	
+		 <!-- section 5-->
+     <section id="section5">
+		<div class="capitulo">
+		<div class="tema">
+           <h2>display: none</h2>
+           <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+                <p>Esta propiedad hace que el elemento no se muestre, elimina también el espacio que ocupa .</p>
+				<br>
+                <p>En el siguiente ejemplo, ocultamos el segundo div. El ancho del contenedor padre se ajusta a los div contenidos.</p>         
+         </div>
+		</div>
+		<div class="codigo">
+				<div class="left-column">
+					<div id="editor">
+						<h4>Html</h4>				
+						<textarea id="htmlCode5" placeholder="HTML code"></textarea>
+						<h4>CSS</h4>
+						<textarea id="cssCode5" placeholder="CSS code"></textarea>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="preview">
+						 <h3>Preview</h3>
+						 <iframe id="preview5"></iframe>
+					</div>
+				</div>
+		 </div>			
+       
+   </section>
+<!-- section 6 -->
+   <section id="section6">
+		<div class="capitulo">
+		 <div class="tema">
+                <h2 class="remarcado">display: Flex</h2>
+                <p>Flexbox, abreviatura de Flexible Box Layout, es un modelo de diseño CSS potente y versátil que permite diseñar diseños web complejos y responsivos con facilidad. Se ha convertido en una herramienta esencial para los desarrolladores web, ya que proporciona una forma más eficiente e intuitiva de organizar elementos dentro de un contenedor.</p>
+                <p>La propiedad display flex requiere un estudio aparte por su complejidad.</p>
+				<br>
+                <p>Para más información:</p>
+			    <p><a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox" target="_blank"> Conceptos Básicos de flexbox </a></p>
+				<p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank"> CSS-tricks-CSS Flexbox Layout Guide </a></p>
+                    
+
+			</div>
+			<div class="imagen-derecha">
+					 <img src="assets/images/display-flex.png" alt="imagen display flex"  width="500px">
+			</div>
+		 </div>	
+	 </section>		
+      <!-- section 7-->
+     <section id="section7">
+		<div class="capitulo">
+		<div class="tema">
+           <h2 class="titulo-grupo">visibility</h2>
+           <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+                <p>En CSS, la propiedad de visibilidad controla la visibilidad de un elemento en una página web.</p>
+         </div>
+		<div class="imagen-derecha">
+			     <img src="assets/images/visibility.jpg" alt="imagen display"  width="500px">
+	    </div>
+		</div>				
+     </section>		
+      <!-- section 8 -->
+     <section id="section8">
+		<div class="capitulo">
+		<div class="tema">
+          <h2>visibility: visible</h2>
+       
+            <p>El elemento se muestra (visible es el valor predeterminado). </p>
+            <br> 
+			<p>En el ejemplo hay elementos visibles y otros ocultos. La regla visibility: visible no sería preciso indicarla, por ser el valor por defecto.</p>
+	    </div>
+	
+		</div>
+		<div class="codigo">
+				<div class="left-column">
+					<div id="editor">
+						<h4>Html</h4>				
+						<textarea id="htmlCode8" placeholder="HTML code"></textarea>
+						<h4>CSS</h4>
+						<textarea id="cssCode8" placeholder="CSS code"></textarea>
+					</div>
+				</div>
+				<div class="right-column">
+					<div class="preview">
+						 <h3>Preview</h3>
+						 <iframe id="preview8"></iframe>
+					</div>
+				</div>
+		 </div>			
+     </section>	
+       <!-- section 9 -->
+     <section id="section9">
+		<div class="capitulo">
+		<div class="tema">
+          <h2>visibility: hidden</h2>
+               <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+               <p>El elemento no se muestra, pero aún ocupa espacio en el diseño.</p>
+	  
+         </div>
+	
+		
+			</div>
+			<div class="codigo">
+					<div class="left-column">
+						<div id="editor">
+							<h4>Html</h4>				
+							<textarea id="htmlCode9" placeholder="HTML code"></textarea>
+							<h4>CSS</h4>
+							<textarea id="cssCode9" placeholder="CSS code"></textarea>
+						</div>
+					</div>
+					<div class="right-column">
+						<div class="preview">
+							 <h3>Preview</h3>
+							 <iframe id="preview9"></iframe>
+						</div>
+					</div>
+	 </div>			
+     </section>	
+       <!-- section 10-->
+        <section id="section10">
+		<div class="capitulo">
+		<div class="tema">
+        <h2>visibility: collapse</h2>
+       <!-- INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+            <p>Se utiliza para filas/columnas de tabla. En otros se comporta como hidden y contrae el espacio. </p>
+	        <br> 
+			<p>En el ejemplo ocultamos la segunda fila de la tabla.</p>
+         </div>
+	
+	</div>
+	<div class="codigo">
+            <div class="left-column">
+				<div id="editor">
+                    <h4>Html</h4>				
+                    <textarea id="htmlCode10" placeholder="HTML code"></textarea>
+                    <h4>CSS</h4>
+                    <textarea id="cssCode10" placeholder="CSS code"></textarea>
+				</div>
+            </div>
+            <div class="right-column">
+                <div class="preview">
+                     <h3>Preview</h3>
+                     <iframe id="preview10"></iframe>
+                </div>
+            </div>
+	 </div>			
+        </section>	
+       <!-- section 11-->
+        <!--<section id="section11">-->
+		<!--<div class="capitulo">
+		<div class="tema">
+   <h2>Impacto en el diseño</h2>
+          INSERTAMOS AQUI LOS TEXTOS DE CONTENIDO E IMAGENES -->
+           <!-- <p>Los elementos con visibilidad: hidden afectan el diseño, a diferencia de display: none, que los elimina por completo del flujo.</p>-->
+				
+        <!-- </div>
+	</div>
+	<div class="codigo">
+            <div class="left-column">
+				<div id="editor">
+                    <h4>Html</h4>				
+                    <textarea id="htmlCode11" placeholder="HTML code"></textarea>
+                    <h4>CSS</h4>
+                    <textarea id="cssCode11" placeholder="CSS code"></textarea>
+				</div>
+            </div>
+            <div class="right-column">
+                <div class="preview">
+                     <h3>Preview</h3>
+                     <iframe id="preview11"></iframe>
+                </div>
+            </div>
+	 </div>			
+        </section>-->
+    </div>
+
+    <!-- Botón Back to Top -->
+    <button id="top-button" onclick="scrollToTop()">↑</button>
+
+
+   <!-- Footer -->
+    <footer>
+        <h2>F5  -  CSS group</h2>
+        <p>© 2024 grupo 5</p>
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="./assets/js/scriptdisplay.js"></script>
+</body>
+</html>
