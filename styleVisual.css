@@ -1,0 +1,574 @@
+/*reset*/
+body{
+    margin: auto;
+    text-decoration: none;
+    background-color: #f2f2f2;
+}
+
+
+.contenedor-nav{
+    background-color: rgb(2, 2, 59);
+    width:100% ;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span, a{
+        color: aliceblue;
+        font-size: 1.9rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 1rem;
+    }
+}
+.center{
+    margin: 0 auto;
+}
+.nav-menu a{
+    position: relative;
+    left: 35%;
+    display: block;
+    text-align: center;
+    background-color: #e6f2ff;;
+    width: 30%;
+    height: 40%;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.3rem solid rgb(18, 18, 94);
+    border-radius: 2rem;
+    padding: 0.4rem 0.9rem;
+    margin-top: 2.8rem;
+
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+   font-size: 2rem;
+   margin-left: 1.5rem;
+   padding-left: 1rem;
+}
+
+.span{
+    text-decoration: underline;
+}
+
+
+.section{
+    background-color: #e6f2ff;;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+    width: 55%;
+    height: 100%;   
+    margin-top: 10rem;
+    padding-left: 0.8rem;
+  
+}
+
+
+/*style casos Practicos*/
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight:bold lighter;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: -2rem;
+}
+
+.code-section{
+    background-color: #e6f2ff;
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0.8rem;
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+
+   h2{
+    font-size: 1.5rem;
+    margin-left: 1.2rem;
+    margin-bottom: 0.5rem;
+
+    }
+}
+
+pre {
+    background-color: #e6f2ff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+}
+
+.animated-div {
+    width: 10rem;
+    height: 10rem;
+    background: red;
+    transition: width 2s;
+}
+
+.animated-div:hover {
+    width: 300px;
+}
+
+.section{
+    display: flex;
+}
+
+/*.container{
+    display: flex;
+}*/
+
+
+.demo-section {
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    transition: width 0.3s ease;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    }
+
+.demo-section:hover {
+    box-shadow: 25px 25px 75px #bebebe,
+                -25px -25px 75px #ffffff;
+}
+
+.demo-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px; /* Ajusta el espaciado entre letras */
+}
+
+.demo-section p {
+    font-size: 1.6rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.animated-div {
+    width: 10rem; /* Mantiene el tamaño inicial */
+    height: 10rem; /* Mantiene el tamaño inicial */
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+ /* Centra el div */
+    transition: width 2s ease; /* Mantiene la transición original */
+}
+
+.animated-div:hover {
+    width: 30rem; /* Cambia solo el ancho al hacer hover */
+}
+
+.puntos-clave{
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+ul li{
+    font-size: 1.7rem;
+    margin-top: 1.6rem;
+    
+}
+}
+
+/*inicio ejemplo transiciones*/
+
+#div1, #div2, #div3, #div4 {
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+    margin: 0;
+    transition: width 2s;
+}
+
+#div1:hover, #div2:hover, #div3:hover, #div4:hover {
+    width: 20rem; /* Ancho fijo al hacer hover */
+}
+
+#div1 { transition-timing-function: linear; }
+#div2 { transition-timing-function: ease-in-out; }
+#div3 { transition-timing-function: ease-in; }
+#div4 { transition-timing-function: ease-out; }
+
+.dere{
+    padding-top: 0.1rem;
+    margin-top: 0;
+    height: 40%;
+}
+
+.grp-div-general {
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+}
+
+.grp1, .grp-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*fin ejemplo transiciones */
+
+/*inicio ejemplo transformaciones */
+.translate{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.demo-translate{
+background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+border: none;
+border-radius: 2rem;
+box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
+height: 10%;
+width: 45%;
+margin-top: -2rem;
+h2{
+    font-size: 1.8rem;
+    padding-top: -2rem;
+    margin-left: 0.3rem;
+}
+h2 span{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+}
+
+.ejemplo-translate{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+   
+}
+
+.ejemplo-translate:hover{
+    transform: translate(80px, 30px);
+}
+
+.code-transform {
+    h2{
+        font-size: 1.5rem;
+        margin-top: -2rem;
+    }
+
+    /* pre */
+    pre{
+        margin-top: -3rem;
+        margin-bottom: 5rem;
+        background-color: #e6f2ff;
+        border: 0.1rem solid rgba(0,0,0,0.1);
+        border-radius: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+         /* fin pre*/
+
+code{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    padding-bottom: 0.2rem;
+}
+}
+/************************rotate*************/
+.rotate{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+
+}
+.ejemplo-rotate{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+   
+}
+
+.ejemplo-rotate:hover{
+    transform: rotate(45deg);
+}
+/*****elemento corregido ***/
+.code-transform{
+    width: 25%;
+    height: 60%;
+}
+
+.code-transform pre{
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    background-color: #e6f2ff;
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.prob-1-resuelto{
+    margin-left: 1rem;
+}
+
+.prob-2-resuelto{
+    margin-left: -0.5rem;
+}
+/*****elemento corregido ***/
+.demo-rotate{
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    height: 10%;
+    width: 45%;
+    margin-top: -2rem;
+    h2{
+        font-size: 1.8rem;
+        padding-top: -2rem;
+        margin-left: 0.3rem;
+    }
+    h2 span{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    }
+
+/***********************rotate*************/
+/************************scale*************/
+
+.scale{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+
+}
+.ejemplo-scale{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+   
+}
+
+.ejemplo-scale:hover{
+    transform: scale(1.5);
+}
+
+.demo-scale{
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    height: 10%;
+    width: 45%;
+    margin-top: -2rem;
+    h2{
+        font-size: 1.8rem;
+        padding-top: -2rem;
+        margin-left: 0.3rem;
+    }
+    h2 span{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    }
+
+/************************scale*************/
+
+/************************skew*************/
+.skew{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+
+}
+.ejemplo-skew{
+    width: 10rem;
+    height: 5rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+   
+}
+
+.ejemplo-skew:hover{
+    transform: skew(20deg, 10deg);
+}
+
+.demo-skew{
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    height: 10%;
+    width: 45%;
+    margin-top: -2rem;
+    h2{
+        font-size: 1.8rem;
+        padding-top: -2rem;
+        margin-left: 0.3rem;
+    }
+    h2 span{
+        font-size: 1.5rem;
+        margin-left: 1.5rem;
+    }
+    }
+
+/************************skew*************/
+/*fin ejemplo transformaciones*/
+
+/*inicio ejemplo 1 animaciones*/
+
+.ejemplo-animacion{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}/* margin entre nav y el primer ejemplo todo el div /la caja */
+
+@keyframes mover {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+  }
+
+.ejemplo-animacion-1{
+    width: 20rem;
+    height: 10rem;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 1rem;
+    animation: mover 4s ease-in-out infinite;
+
+}
+.demo-animacion-1{
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    height: 10%;
+    width: 30%;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    h2{
+        font-size: 3rem;
+        padding-top: -2rem;
+        text-align: center;
+    }
+    }
+
+/*fin ejemplo 1 animaciones*/
+
+/*inicio ejemplo 2 animaciones*/
+.demo-animacion-2{
+    background: linear-gradient(145deg, #f0f0f0, #e6e6e6);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+    height: 10%;
+    width: 30%;
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    h2{
+        font-size: 3rem;
+        padding-top: -2rem;
+        text-align: center;
+    }
+    }
+
+@keyframes cambioColor {
+        0% { background-color: red; }
+        50% { background-color: blue; }
+        100% { background-color: green; }
+          }
+      
+.ejemplo-animacion-2{
+    width: 20rem;
+    height: 10rem;
+    border-radius: 1rem;
+    animation: cambioColor 8s ease-in-out infinite;
+}
+/*prob corregido*/
+.code-animacion{
+    width: 35%;
+}
+/*prob corregido*/
+.code-animacion pre{
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    background-color: #e6f2ff;
+    border: 0.1rem solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 120%;
+    margin-top: -1.8rem;
+}
+/*fin ejemplo 2 animaciones*/
+
+.siguiente{
+    display: flex;
+    justify-content: flex-end;
+    i{
+    color: black;
+    font-weight: bold;
+    font-size: 4rem;
+    padding-top: 6rem;
+    margin-right: 2rem;
+    }
+}
+
+.sintaxis{
+    background-color: #e6f2ff;;
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 3rem;
+}
+
+span{
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 3rem;
+    
+  
+}
+
+
+
+
+
+
+
+/*@media (max-width: 768px) {
+    .code-section, .demo-section {
+        width: 100%;
+    }
+}*/

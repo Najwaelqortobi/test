@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleVisual.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ejemplos Animaciones</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-nav">
+            <Span>Sprint</Span>
+            <span>Efectos visuales</span>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+    </header>
+
+    <h1>Ejemplo de Animaciones CSS con @Keyframes</h1>
+    <div class="container-animaciones centrado">
+        <!--inicio div que engloba parte codigo y demo-->
+        <div class="ejemplo-animacion">
+        <!--parte codigo-->
+        <section class="code-animacion">
+            <pre><code>
+.@keyframes mover {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+  }
+  
+.ejemplo-animacion-1 {
+    animation: mover 4s ease-in-out infinite;
+  }</code></pre>
+        </section>
+        <!--parte codigo-->
+        <!--demo demonstracion-->
+        <section class="demo-animacion-1">   
+            <h2>Demostración</h2>
+            <div class="ejemplo-animacion-1">
+            </div>
+        </section>
+        <!--demo demonstracion-->
+    </div>
+    <!--fin div que engloba parte codigo y demo-->
+
+     <!--inicio del segundo ejemplo-->
+    <div class="ejemplo-animacion">
+        <!--parte codigo-->
+        <section class="code-animacion">
+            <pre><code>
+.@keyframes cambioColor {
+    0% { background-color: red; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
+      }
+  
+.ejemplo-animacion-2 {
+    animation: cambioColor 4s ease-in-out infinite;
+  }</code></pre>
+        </section>
+        <!--parte codigo-->
+        <!--demo demonstracion-->
+        <section class="demo-animacion-2">   
+            <h2>Demostración</h2>
+            <div class="ejemplo-animacion-2">
+            </div>
+        </section>
+        <!--demo demonstracion-->
+    </div>
+
+    </div>
+
+
+</body>
+</html>
