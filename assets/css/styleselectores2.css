@@ -1,0 +1,166 @@
+
+/*************************************************/
+/***** estilos para página selectores2.html *****/
+
+* {
+    font-family: Inter, Arial, sans-serif; 
+}
+p{
+    line-height:1.3rem;
+}
+strong{  
+    color:#e6111b;   
+}
+
+.codigo-texto{
+    color: rgb(218, 150, 22);
+}
+.imagen-derecha{
+	text-align:center;
+}
+h2.subtitulo{
+	text-align:center;
+	color:red;
+	font-size:1.2rem;
+}
+.subgrupo .principal{
+	background-color:white;
+	color:red;
+	border-radius:0;
+}
+.titulo-grupo{
+	color:#5c5656;
+	font-size:2rem;
+}
+.titulo-cabecera-grupo{
+	text-align:center;
+	color:red;
+	font-size:2rem;
+	margin:5px;
+	width:100%;
+    border-top: 3px solid #ccc;
+	border-bottom: 3px solid #ccc;
+}
+/*** 2ª ventana de contenido ***/ 
+#section1 .capitulo{
+    border-bottom:none;
+}
+.tema2{
+	width:100%;
+    margin: 3vh 0;
+}
+.tema2 h3{
+	text-align:center;
+}
+#section17 h2{
+	color:black;
+	text-decoration:none;
+}
+/** tabla responsive **/
+.tabla-resp{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+ table {
+    width: 60%;
+    border-collapse: collapse;
+	margin:2%;
+}
+ 
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+th{
+    font-weight:bold;
+	color:rgb(237, 230, 230);
+	background-color:rgb(30, 29, 29);
+}
+.destacado{
+    color:#5c5656;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.capitulo ul{
+	margin-left:1.5em;
+}
+/** centrar imagen en su contenedor**/
+.contenedor-imagen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-imagen img{
+    width:80%;
+    display: inline-block; /* asegurar que se coloca en bloque */
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Icono de información sticky en la esquina inferior izquierda */
+.info-icon {
+    position: sticky;
+    bottom: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.info-icon img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/** mediaqueries para tabla **/
+@media screen and (max-width: 600px) {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+
+    thead tr {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    tr {
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+
+    td {
+      border: none;
+      position: relative;
+      padding-left: 50%;
+    }
+
+    td:before {
+      position: absolute;
+      left: 6px;
+      content: attr(data-label);
+      font-weight: bold;
+    }
+}
+/** fin tabla responsive **/
+/**** aumento del tamaño de fuentes para vista en clase***/
+.contenido section p, .contenido section a, .contenido table td,.contenido code, nav a, .codigo textarea,.codigo .preview iframe,.contenido li, body p{
+	font-size:1.3rem !important;
+	line-height:2rem;
+}
+body h3,.contenido section h3{
+	font-size:1.8rem !important;
+	line-height:2.2rem;
+}
+body h2,.contenido section h2{
+	font-size:2.2rem !important;
+	line-height:2.7rem;
+}
+
+
+

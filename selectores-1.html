@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectores CSS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <link rel="stylesheet" href="styleselectores1.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">F5</div>
+      <h3>Selectores CSS</h3>
+      <a href="home.html" target="_blank">
+        <img
+          class="home"
+          src="assets/img/casa-blanca.png"
+          alt="logo casa"
+          width="25px"
+      /></a>
+    </header>
+
+    <!-- main -->
+     <div class="container">
+
+      <div class="sintaxis">
+        <h2>SINTAXIS</h2>
+        <div class="img">
+          <img class="img1" src="assets/img/img_selector.gif">
+          <br>
+          <img class="img2" src="assets/img/sintaxis-avanzada-css.png">
+        </div>  
+
+        <div class="info">
+          <div class="selector">
+          <h3>Selector</h3>
+          <p>Apunta al elemento HTML que deseas diseñar.</p>
+          </div>
+          <div class="declaracion">
+          <h3>Declaración</h3>
+          <p>Contiene una o más declaraciones separadas por ;</p>
+          </div>
+          <div class="propiedad">
+          <h3>Propiedad</h3>
+          <p>Nombre de la propiedad CSS.</p>
+          </div>
+          <div class="valor">
+          <h3>Valor</h3>
+          <p>Valor de la propiedad CSS.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="selectores">
+        <h2>TIPOS DE SELECTORES</h2>
+        <div class="tipos">
+          <div class="uno">
+            <h3>Simples</h3>
+            <p>Selecciona elementos basados en el nombre, id, clase.</p>
+            <br>
+            <img src="assets/img/selectores_basicos.png">
+          </div>
+
+          <div class="dos">
+            <h3>Combinados</h3>
+            <p>Selecciona elementos basados en una relación específica entre ellos.</p>
+            <br>
+            <img src="assets/img/selectores_combinados.png">
+          </div>
+
+          <div class="tres">
+            <h3>De clase</h3>
+            <p>Selecciona todo en el documento con esa clase aplicada a él.</p>
+            <img class="declase" src="assets/img/declase.jpg">
+          </div>
+
+          <div class="cuatro">
+            <h3>De atributos</h3>
+            <p>Selecciona elementos basados en un atributo o valor de atributo.</p>
+            <img class="deatributo" src="assets/img/etiqueta-atributos.jpg">
+          </div>
+
+          <div class="cinco">
+            <h3>De tipo</h3>
+            <p>Selecciona elementos basados en una etiqueta HTML/elemento.</p>
+            <img class="detipo" src="assets/img/detipo.jpg">
+          </div>
+
+          <div class="seis">
+            <h3>Universal</h3>
+            <p>Selecciona todo el documento.</p>
+            <img class="universal" src="assets/img/universal.jpg">
+          </div>
+
+          <div class="siete">
+            <h3>De identificación / ID</h3>
+            <p>Con un #en lugar de un carácter de punto, pero se utiliza de la
+              misma manera que un selector de clase. Se puede usar sólo una vez
+              por página, y los elementos sólo pueden tener un solo id valor
+              aplicado a ellos.
+            </p>
+            <img class="id" src="assets/img/deid.jpg">
+          </div>
+
+          <div class="ocho">
+            <h3>Pseudoclase</h3>
+            <p>Selecciona elementos basados en un determinado estado.
+              <br>Se puede utilizar para:
+            </p>
+            • Estilo un elemento cuando un usuario mueve el ratón sobre él
+            <br>
+            • Estilo visitado y enlaces sin visitar de otra manera 
+            <br>
+            • Estilo un elemento cuando se enfoca 
+            <br>
+            • Elementos de forma de tipo válidos/inválidos/requerido/opcional 
+            <img class="pseudoclase" src="assets/img/pseudoclases.jpg">
+          </div>
+
+          <div class="nueve">
+            <h3>Pseudoelementos</h3>
+            <p>Selecciona y da estilo a una parte de un elemento.
+              <br>Se puede utilizar para:
+            </p>
+                • Estilo de la primera letra o línea, de un elemento 
+              <br>
+                • Inserte el contenido antes o después de un elemento                 
+              <br>
+               • Estilo de los marcadores de los elementos de la lista   
+              <br>
+                • Estilo de la caja de vistas detrás de un cuadro de diálogo 
+              <img class="pseudoelemento" src="assets/img/pseudoelemento.jpg">
+          </div>
+
+          <div class="pseudoimg">
+            <img class="pseudo" src="assets/img/pseudo.webp">
+          </div>
+        </div>
+      </div>
+
+      <div class="ubicacion">
+        <h2>UBICACIÓN DE LOS SELECTORES</h2>
+        <div class="donde">
+          <div class="hojas">
+            <h3>En hojas de estilo externas</h3>
+            <p>
+              Se consigue separar el archivo de estilos del fichero HTML. El archivo
+              de estilos cuenta con la extensión .css y se referencia desde HTML
+              mediante el elemento <link />. Este es el método más eficiente y más
+              sencillo de mantener ya que el código CSS se encuentra separado del
+              fichero HTML.
+            </p>
+          </div>
+          <div class="resumen">
+            <img class="imgresumen" src="assets/img/hojasdeestilo.png">
+          </div>
+
+          <div class="cabecera">
+            <h3>Incrustado en cabecera</h3>
+            <p>
+              Es utilizando la etiqueta style en la cabecera head del fichero HTML
+              del sitio. La desventaja de este método es que a la hora de realizar
+              cualquier cambio, se debe realizar en múltiples páginas diferentes y
+              el código estará repetido.
+            </p>
+          </div>
+          <br>
+          <div class="linea">
+            <h3>En línea</h3>
+            <p>
+              Selectores más específicos ganan: Cuantos más elementos específicos se
+              mencionen en un selector (ID, clases, elementos), mayor será su
+              especificidad.
+              <br />
+              Orden de importancia: ID > clases > elementos. Un selector con un ID
+              siempre prevalecerá sobre uno con una clase, y así sucesivamente.
+            </p>
+          </div>
+
+          
+        </div>
+      </div>
+    
+      <div class="jerarquia">
+        <h2>JERARQUÍA DE LOS SELECTORES</h2>
+        <img class="imgjerarquia" src="assets/img/jerarquia.png">
+        <div class="lista">
+
+          <div class="especificidad">
+            <h3>Especificidad</h3>
+            <p>
+              Se consigue separar el archivo de estilos del fichero HTML. El archivo
+              de estilos cuenta con la extensión .css y se referencia desde HTML
+              mediante el elemento <link />. Este es el método más eficiente y más
+              sencillo de mantener ya que el código CSS se encuentra separado del
+              fichero HTML.
+            </p>
+          </div>
+
+          <div class="importancia">
+            <h3>Jerarquía</h3>
+            <p>
+              Hojas de estilo importadas: Los estilos definidos en una hoja de
+              estilo importada con @import tienen menor importancia que los
+              definidos en la misma hoja de estilo.
+              <br />
+              Estilos en línea: Los estilos definidos directamente en un elemento
+              HTML (usando el atributo style) tienen la mayor importancia, pero su
+              uso no es recomendado por razones de mantenimiento.
+            </p>
+          </div>
+
+          <div class="orden">
+            <h3>Orden</h3>
+            <p>
+              Último declarado gana: En caso de igual especificidad, el último
+              estilo declarado prevalecerá.
+            </p>
+          </div>
+
+     </div>
+     
+    
+    <hr />
+
+    <!-- Botón Back to Top -->
+    <button id="top-button" onclick="scrollToTop()">↑</button>
+
+    <!-- Footer -->
+    <footer>
+      <h2>F5 - CSS group</h2>
+      <p>© 2024 grupo 1</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

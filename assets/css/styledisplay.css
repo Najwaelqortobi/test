@@ -1,0 +1,23 @@
+
+/*************************************************/
+/***** estilos para página display.html *****/
+
+.subgrupo .principal{
+	background-color:white;
+	color:red;
+	border-radius:0;
+}
+.subgrupo .principal2{
+    border: 8px solid orange
+}
+.titulo-grupo{
+	color:#5c5656;
+	font-size:2rem;
+}
+.remarcado{
+    border-bottom: 8px solid orange
+}
+
+
+
+

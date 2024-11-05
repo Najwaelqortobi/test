@@ -1,0 +1,443 @@
+/* Reset margens y paddings por defecto  */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+           /*font-family: Arial, sans-serif;*/
+			font-family: "Gill Sans", sans-serif;
+        }
+
+	  /************* estilos generales e index ******************/
+        #main {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            color: white;
+        }
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: red;
+            color: white;
+            padding: 20px;
+        }
+		 header .logo {
+            font-size: 25px;
+			margin-left:3vw;
+        }
+
+        header h3 {
+            font-size: 30px;
+			margin-right:15vw;
+        }
+
+
+	  /************* estilos generales e index ******************/
+      /* Main container */
+      .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+          }
+
+	  /************* main ******************/
+        /* Secciones */
+        .sintaxis h2 {
+            text-align: center;
+            color: red;
+            font-size: xx-large;
+            padding: 1rem;
+        }
+
+        .selectores h2 {
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+
+        .ubicacion h2 {
+            text-align: center;
+            color: red;
+            font-size: xx-large;
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+
+        .jerarquia h2 {
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+            padding: 1rem;
+            border-radius: 2rem;
+        }
+
+        .sintaxis h3 {
+            text-align: center;
+            color: red;
+            font-size: 20px;
+            text-decoration: underline;
+            padding: 1rem;
+        }
+
+        .selectores h3 {
+            color: white;
+            font-size: 20px;
+            text-decoration: underline;
+            padding: 1rem;
+        }
+        
+        .ubicacion h3 {
+            text-align: center;
+            color: red;
+            font-size: 20px;
+            text-decoration: underline;
+            padding: 1rem;
+        }
+
+        .jerarquia h3 {
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            text-decoration: underline;
+            padding: 1rem;
+        }
+
+        .sintaxis {
+            margin-top: 2rem;
+            align-items: center;
+            background-color: white;
+            width: 100%;
+        }
+
+        .img {
+            margin-top: 1rem;
+            margin-left: 30rem;
+            display: block;
+            width: 50%;
+        }
+
+        .img1 {
+            display: flex;
+            justify-content: center;
+            margin-left: 15rem;
+        }
+        
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 2rem;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto; 
+            padding: 2rem;
+            border: 2px solid red;
+            border-radius: 15px;
+        }
+
+        .selector {
+            text-align: center;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding-bottom: 1rem;
+        }
+
+        .declaracion {
+            text-align: center;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding-bottom: 1rem;
+        }
+
+        .propiedad {
+            text-align: center;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding-bottom: 1rem;
+        }
+
+        .valor {
+            text-align: center;
+            border: 1px solid red;
+            border-radius: 15px;
+            padding-bottom: 1rem;
+        }
+
+        .selectores {
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            background-color: red;
+            width: 100%;
+            opacity: 90%;
+            color: white;
+        }
+
+        .tipos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 2rem;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto; 
+            padding: 2rem;
+        }
+
+        .uno {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .dos {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .tres {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .declase {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .cuatro {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .deatributo {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .cinco {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .detipo {
+            margin-top: 1rem;
+            width: 550px;
+        }
+
+        .seis {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .universal {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .siete {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .id {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .ocho {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .pseudoclase {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .nueve {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .pseudoelemento {
+            margin-top: 1rem;
+            width: 400px;
+        }
+
+        .pseudoimg {
+        margin-left: 2rem;
+        }
+
+        .ubicacion {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            background-color: white;
+        }
+
+        .donde {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 2rem;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto; 
+            padding: 2rem;
+        }
+
+        .hojas {
+            border: 1px solid red;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .cabecera {
+            border: 1px solid red;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .linea {
+            border: 1px solid red;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .resumen {
+            width: 20px;
+            height: 20px;
+        }
+
+        .imgresumen {
+            width: 600px;
+        }
+
+        .jerarquia {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            background-color: red;
+            opacity: 90%;
+            color: white;
+            padding-top: 2rem;
+        }
+
+        .imgjerarquia {
+            margin-left: 37rem;
+            margin-top: 1rem;
+        }
+
+        .lista {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 2rem;
+            justify-content: center;
+            max-width: 80%;
+            margin: 0 auto; 
+            padding: 2rem;
+        }
+
+        .especificidad {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .importancia {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .orden {
+            border: 1px solid white;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .imgflechajer {
+            width: 500px;
+        }
+
+        /* "Back to Top" Button */
+        #top-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: red;
+            color: white;
+            border: 2px solid maroon;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 20px;
+            display: none; /* Initially hidden */
+			transition: background-color 0.3s;
+        }
+		#top-button:hover {
+		   background-color: rgba(105, 0, 0, 0.5); /* Transparente */
+		}
+
+        /* Footer Styling */
+         footer {
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+            color:white;
+        }
+
+        footer h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-column, .right-column {
+                width: 100%;
+                padding: 0;
+            }
+        }
