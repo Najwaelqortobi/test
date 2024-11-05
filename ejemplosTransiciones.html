@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleVisual.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Ejemplos Transiciones</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-nav">
+            <Span>Sprint</Span>
+            <span>Efectos visuales</span>
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+    </header>
+
+    <h1>Ejemplo de Transiciónes CSS</h1>
+        
+    <div class="container centrado">
+
+<div class="primer-container">
+<!--HTML-->
+        <section class="code-section">
+            <h2>HTML</h2>
+            <pre><code>
+&lt;div id = "div1" &gt;&lt;/div&gt;
+
+&lt;div id = "div2" &gt;&lt;/div&gt;
+
+&lt;div id = "div3" &gt;&lt;/div&gt;
+
+&lt;div id = "div4" &gt;&lt;/div&gt;
+            </code></pre>
+        </section>
+
+
+<!--CSS-->
+        <section class="code-section">
+            <h2>CSS</h2>
+            <pre><code>
+#div1 {transition-timing-function: linear;}
+
+#div2 {transition-timing-function: ease-in-out;}
+
+#div3 {transition-timing-function: ease-in;}
+
+#div4 {transition-timing-function: ease-out;}
+            </code></pre>
+        </section>
+    </div>
+<!--Demo-->
+        <div class="segundo-contenedor">
+            <div class="puntos-clave">
+            <p class="puntos-clave">
+                <ul>
+                <li>linear : Velocidad constante de principio a fin</li>
+                <li>ease-in-out : Combina ease-in y ease-out</li>
+                <li>ease-in : Comienza lentamente y acelera hacia el final</li>
+                <li>ease-out : Comienza rápidamente y desacelera hacia el final</li>
+                </ul>
+            </p>
+        </div>
+        <section class="demo-section dere-abajo">
+            <h2>Demostración</h2>
+            <p>Pasa el cursor sobre el div para ver el efecto:</p>
+           <div class="grp-div-general">
+            <div class="grp1">
+            <div id="div1"></div>
+            <div id="div2"></div>
+        </div>
+        <div class="grp-2">
+            <div id="div3"></div>
+            <div id="div4"></div>
+        </div>
+        </section>
+    </div>
+    </div>
+
+    <div class="siguiente">
+        <a href="ejemplosTransformaciones.html"><i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+</body>
+
+
+</html>
